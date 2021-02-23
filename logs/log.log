@@ -1,0 +1,676 @@
+2021-02-21 15:13:14,172-[test_login.py-->line:47]-INFO-用例正常登录执行通过
+2021-02-21 15:17:08,041-[test_login.py-->line:42]-ERROR-用例正常登录执行未通过
+2021-02-21 15:17:08,041-[test_login.py-->line:43]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_login.py", line 38, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-21 15:17:50,451-[test_login.py-->line:47]-INFO-用例正常登录执行通过
+2021-02-21 15:29:21,316-[test_login.py-->line:48]-INFO-用例正常登录执行通过
+2021-02-21 15:31:40,010-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 15:32:01,081-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:02:06,541-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:02:34,517-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:04:15,940-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:06:20,393-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:07:04,996-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:11:50,885-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:14:33,489-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:15:05,615-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:22:54,910-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:24:15,155-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:27:24,719-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:27:46,827-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:31:05,664-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:31:14,606-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:31:53,244-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:32:49,704-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:33:15,281-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:37:22,342-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:38:13,000-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 16:38:49,179-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 17:33:43,337-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 17:34:43,353-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 17:36:13,063-[test_login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-21 17:37:17,080-[test_01login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-22 09:38:19,545-[test_02courseware.py-->line:70]-INFO-用例正常登录执行通过
+2021-02-22 09:38:19,643-[test_02courseware.py-->line:70]-INFO-用例正常新增课件执行通过
+2021-02-22 09:49:48,538-[test_02courseware.py-->line:70]-INFO-用例正常登录执行通过
+2021-02-22 09:49:48,590-[test_02courseware.py-->line:65]-ERROR-用例正常新增课件执行未通过
+2021-02-22 09:49:48,590-[test_02courseware.py-->line:66]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_02courseware.py", line 61, in test_02addcourse
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 09:50:55,122-[test_02courseware.py-->line:70]-INFO-用例正常登录执行通过
+2021-02-22 09:56:53,889-[test_02courseware.py-->line:70]-INFO-用例正常登录执行通过
+2021-02-22 10:59:17,732-[test_02courseware.py-->line:70]-INFO-用例正常登录执行通过
+2021-02-22 11:09:08,752-[test_02courseware.py-->line:95]-INFO-用例正常登录执行通过
+2021-02-22 11:09:31,403-[test_02courseware.py-->line:95]-INFO-用例正常登录执行通过
+2021-02-22 11:28:31,152-[test_02courseware.py-->line:80]-ERROR-用例正常新增课件执行未通过
+2021-02-22 11:28:31,152-[test_02courseware.py-->line:81]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_02courseware.py", line 76, in test_02addcourse
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 11:31:16,107-[test_02courseware.py-->line:80]-ERROR-用例正常新增课件执行未通过
+2021-02-22 11:31:16,107-[test_02courseware.py-->line:81]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_02courseware.py", line 76, in test_02addcourse
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 11:33:23,003-[test_02courseware.py-->line:82]-ERROR-用例正常新增课件执行未通过
+2021-02-22 11:33:23,003-[test_02courseware.py-->line:83]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_02courseware.py", line 78, in test_02addcourse
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 11:34:19,841-[test_02courseware.py-->line:87]-INFO-用例正常新增课件执行通过
+2021-02-22 13:10:03,810-[test_02courseware.py-->line:84]-INFO-用例正常登录执行通过
+2021-02-22 13:11:00,409-[test_02courseware.py-->line:84]-INFO-用例正常登录执行通过
+2021-02-22 13:11:47,717-[test_02courseware.py-->line:84]-INFO-用例正常新增课件执行通过
+2021-02-22 13:14:01,156-[test_02courseware.py-->line:83]-INFO-用例正常新增课件执行通过
+2021-02-22 17:52:45,189-[test_video.py-->line:288]-ERROR-用例正常新增视频执行未通过
+2021-02-22 17:52:45,189-[test_video.py-->line:289]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 284, in test_03video
+    self.assertEqual(expected["code"], res2["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 17:53:26,958-[test_video.py-->line:83]-ERROR-用例正常新增视频执行未通过
+2021-02-22 17:53:26,959-[test_video.py-->line:84]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 79, in test_03video
+    self.assertEqual(expected["code"], res2["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 17:57:17,412-[test_video.py-->line:83]-ERROR-用例正常新增视频执行未通过
+2021-02-22 17:57:17,412-[test_video.py-->line:84]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 79, in test_03video
+    self.assertEqual(expected["code"], res2["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 17:58:42,009-[test_video.py-->line:83]-ERROR-用例正常新增视频执行未通过
+2021-02-22 17:58:42,009-[test_video.py-->line:84]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 79, in test_video
+    self.assertEqual(expected["code"], res2["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:00:01,289-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:00:01,289-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:06:03,000-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:06:03,000-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:12:45,240-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:12:45,241-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:13:52,849-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:13:52,849-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:14:31,375-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:14:31,375-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:17:38,902-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:17:38,902-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:20:03,197-[test_video.py-->line:87]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:20:03,197-[test_video.py-->line:88]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 83, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-22 18:21:12,678-[test_video.py-->line:88]-ERROR-用例正常新增视频执行未通过
+2021-02-22 18:21:12,679-[test_video.py-->line:89]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_video.py", line 84, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 15:07:42,458-[test_01login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-23 15:07:51,131-[test_02courseware.py-->line:83]-INFO-用例正常新增课件执行通过
+2021-02-23 15:10:47,129-[test_02courseware.py-->line:80]-INFO-用例正常新增课件执行通过
+2021-02-23 15:16:12,738-[test_addvideo.py-->line:75]-ERROR-用例正常新增视频执行未通过
+2021-02-23 15:16:12,738-[test_addvideo.py-->line:76]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 71, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 15:20:58,528-[test_addvideo.py-->line:76]-ERROR-用例正常新增视频执行未通过
+2021-02-23 15:20:58,528-[test_addvideo.py-->line:77]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 72, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 15:26:17,522-[test_addvideo.py-->line:77]-ERROR-用例正常新增视频执行未通过
+2021-02-23 15:26:17,522-[test_addvideo.py-->line:78]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 73, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 15:27:29,775-[test_addvideo.py-->line:77]-ERROR-用例正常新增视频执行未通过
+2021-02-23 15:27:29,775-[test_addvideo.py-->line:78]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 73, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 15:29:01,103-[test_addvideo.py-->line:82]-INFO-用例正常新增视频执行通过
+2021-02-23 15:31:30,013-[test_addvideo.py-->line:81]-INFO-用例正常新增视频执行通过
+2021-02-23 15:32:25,565-[test_addvideo.py-->line:81]-INFO-用例正常新增视频执行通过
+2021-02-23 15:54:48,608-[test_addvideo.py-->line:94]-INFO-用例正常新增视频执行通过
+2021-02-23 16:05:17,185-[test_addvideo.py-->line:89]-ERROR-用例正常新增视频执行未通过
+2021-02-23 16:05:17,186-[test_addvideo.py-->line:90]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 85, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 16:10:34,109-[test_addvideo.py-->line:91]-ERROR-用例正常新增视频执行未通过
+2021-02-23 16:10:34,109-[test_addvideo.py-->line:92]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 87, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 16:14:05,513-[test_addvideo.py-->line:92]-ERROR-用例正常新增视频执行未通过
+2021-02-23 16:14:05,513-[test_addvideo.py-->line:93]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 88, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 16:22:32,404-[test_addvideo.py-->line:92]-ERROR-用例正常新增视频执行未通过
+2021-02-23 16:22:32,404-[test_addvideo.py-->line:93]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_addvideo.py", line 88, in test_addvideo
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 16:24:16,002-[test_addvideo.py-->line:97]-INFO-用例正常新增视频执行通过
+2021-02-23 16:29:45,588-[test_03video.py-->line:97]-INFO-用例正常新增视频执行通过
+2021-02-23 16:38:06,029-[test_04diagramtax.py-->line:92]-ERROR-用例正常图税知识执行未通过
+2021-02-23 16:38:06,029-[test_04diagramtax.py-->line:93]-ERROR- :: 200 != 501
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '200' != '501'
+- 200
++ 501
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\下载\Automation Code study\tax-school-hb\testcases\test_04diagramtax.py", line 88, in test_video
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Program Files\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
+2021-02-23 16:38:34,308-[test_04diagramtax.py-->line:97]-INFO-用例正常图税知识执行通过
