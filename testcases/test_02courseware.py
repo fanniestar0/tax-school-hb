@@ -1,3 +1,4 @@
+# 封装添加课件测试用例类
 import os
 import unittest
 import jsonpath

@@ -26,7 +26,7 @@ rf = os.path.join(REPORTDIR , date+"report.html")
 
 br = BeautifulReport(suite)
 br.report("河北学堂项目自动化测试", filename=date+"raport.html", report_dir=REPORTDIR)
-send_email(rf, "邮件报告")
+# send_email(rf, "邮件报告")
 
 
 

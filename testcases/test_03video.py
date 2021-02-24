@@ -1,3 +1,4 @@
+# 封装添加视频点播测试用例类
 import os
 import time
 import unittest

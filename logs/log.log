@@ -674,3 +674,11 @@ Traceback (most recent call last):
     raise error
 teamcity.diff_tools.EqualsAssertionError:  :: 200 != 501
 2021-02-23 16:38:34,308-[test_04diagramtax.py-->line:97]-INFO-用例正常图税知识执行通过
+2021-02-24 13:44:43,299-[test_01login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-24 13:44:49,812-[test_02courseware.py-->line:80]-INFO-用例正常新增课件执行通过
+2021-02-24 13:44:57,601-[test_03video.py-->line:97]-INFO-用例正常新增视频执行通过
+2021-02-24 13:45:06,196-[test_04diagramtax.py-->line:94]-INFO-用例正常图税知识执行通过
+2021-02-24 13:46:10,197-[test_01login.py-->line:49]-INFO-用例正常登录执行通过
+2021-02-24 13:46:10,412-[test_02courseware.py-->line:80]-INFO-用例正常新增课件执行通过
+2021-02-24 13:46:10,698-[test_03video.py-->line:97]-INFO-用例正常新增视频执行通过
+2021-02-24 13:46:10,964-[test_04diagramtax.py-->line:94]-INFO-用例正常图税知识执行通过
